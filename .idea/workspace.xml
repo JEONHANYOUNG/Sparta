@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09c372b8-d38b-4245-84d4-294e39549ba0" name="변경" comment="Sparta 수업 강의">
+    <list default="true" id="09c372b8-d38b-4245-84d4-294e39549ba0" name="변경" comment="Sparta 2주차 수업 강의">
+      <change afterPath="$PROJECT_DIR$/frontend/jquery01.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
     </list>
@@ -67,7 +68,8 @@
       <workItem from="1648213262362" duration="6226000" />
       <workItem from="1648389812896" duration="7024000" />
       <workItem from="1648397280840" duration="9000" />
-      <workItem from="1648478679433" duration="3951000" />
+      <workItem from="1648478679433" duration="3996000" />
+      <workItem from="1648564312016" duration="4346000" />
     </task>
     <task id="LOCAL-00001" summary="Sparta 수업 강의">
       <created>1648397193408</created>
@@ -76,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648397193408</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Sparta 2주차 수업 강의">
+      <created>1648482732457</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1648482732457</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +104,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Sparta 수업 강의" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sparta 수업 강의" />
+    <MESSAGE value="Sparta 2주차 수업 강의" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sparta 2주차 수업 강의" />
   </component>
 </project>
