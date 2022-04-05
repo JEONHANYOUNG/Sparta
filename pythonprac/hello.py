@@ -1,3 +1,4 @@
+# 변수
 # 1. print('hello sparta!!')
 #    => hello sparta!!
 
