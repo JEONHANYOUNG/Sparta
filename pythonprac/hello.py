@@ -76,6 +76,7 @@
 # for person in people:
 #     print(person['name'], person['age'])
 
+# 결과 값
 # bob 20
 # carry 38
 # john 7
@@ -93,6 +94,7 @@
 
 # print(get_age('bob'))    <= 20
 # print(get_age('kay'))    <= 해당하는 이름이 없습니다
+
 
 # 예제 문제
 # import requests # requests 라이브러리 설치 필요
@@ -112,6 +114,5 @@
     # 2. 미세먼지가 40보다 작으면 값 출력
     # if gu_mise < 40:
         # print(gu_name)
-
 
 # print(rjson)
