@@ -58,7 +58,7 @@
 # count = 0               <= count 가 0부터 시작한다.
 # for fruit in fruits:     <= 리스트의 요소들을 하나씩 꺼내서 내용물로 해서 쓴다
 # 	if fruit == '사과':   <= fruit 가 만약 사과라면
-		# count += 1        <= count를 하나 늘려줘라는 읨읨
+	 # count += 1        <= count를 하나 늘려줘라는 의미
 # print(count)
 # => 2
 
