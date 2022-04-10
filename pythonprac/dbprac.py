@@ -34,7 +34,7 @@ db = client.dbsparta
 # db.users.delete_one({'name':'bobby'})
 
 
-# 예시 코드
+# - 예시 코드 -
 # doc = {'name':'bobby','age':21}
 # db.users.insert_one(doc)
 #
