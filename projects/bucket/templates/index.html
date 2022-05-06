@@ -116,6 +116,7 @@
                 url: "/bucket",
                 data: {bucket_give:bucket},
                 success: function (response) {
+                    alert(response["msg"])
                     window.location.reload()
                 }
             });
@@ -124,9 +125,10 @@
             $.ajax({
                 type: "POST",
                 url: "/bucket/done",
-                data: {sameple_give:'데이터전송'},
+                data: {num_give:num},
                 success: function (response) {
                     alert(response["msg"])
+                    window.location.reload()
                 }
             });
         }
@@ -143,17 +145,6 @@
         </div>
     </div>
     <div class="mybox" id="bucket-list">
-        <li>
-            <h2>✅ 호주에서 스카이다이빙 하기</h2>
-            <button onclick="done_bucket(5)" type="button" class="btn btn-outline-primary">완료!</button>
-        </li>
-        <li>
-            <h2 class="done">✅ 호주에서 스카이다이빙 하기</h2>
-        </li>
-        <li>
-            <h2>✅ 호주에서 스카이다이빙 하기</h2>
-            <button type="button" class="btn btn-outline-primary">완료!</button>
-        </li>
     </div>
 </body>
 </html>

@@ -17,7 +17,7 @@ def bucket_post():
     count = len(bucket_list) + 1
 
     doc = {
-        'num':0,
+        'num':count,
         'bucket':bucket_receive,
         'done':0
     }
@@ -28,14 +28,14 @@ def bucket_post():
 
 @app.route("/bucket/done", methods=["POST"])
 def bucket_done():
-    sample_receive = request.form['sample_give']
-    print(sample_receive)
-    return jsonify({'msg': 'POST(완료) 연결 완료!'})
+    num_receive = request.form['num_give']
+    db.bucket.update_one({'num':int(num_receive)},{'$set': {'done':1}})
+    return jsonify({'msg': '버킷 완료!'})
 
 @app.route("/bucket", methods=["GET"])
 def bucket_get():
-    bucket_list = list(db.users.find({}, {'_id': False}))
-    return jsonify({'buckets': 'bucket_list 완료!'})
+    bucket_list = list(db.bucket.find({}, {'_id': False}))
+    return jsonify({'buckets': bucket_list})
 
 if __name__ == '__main__':
    app.run('0.0.0.0', port=5000, debug=True)

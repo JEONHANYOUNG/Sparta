@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, jsonify
 app = Flask(__name__)
 
 from pymongo import MongoClient
-client = MongoClient('내 URL')
+client = MongoClient('mongodb+srv://test:sparta@cluster0.h9eiw.mongodb.net/Cluster0?retryWrites=true&w=majority')
 db = client.dbsparta
 
 import requests
@@ -42,7 +42,7 @@ def movie_post():
 
     db.movies.insert_one(doc)
 
-    return jsonify({'msg':'POST 연결 완료!'})
+    return jsonify({'msg':'저장 완료!'})
 
 @app.route("/movie", methods=["GET"])
 def movie_get():
